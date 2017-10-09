@@ -37,7 +37,7 @@ public class Practice03SweepGradientView extends View {
          */
         Shader shader = new SweepGradient(300,300,
                 Color.parseColor("#E91E63"),
-                Color.parseColor("#E91E63")) ;
+                Color.parseColor("#2196F3")) ;
         paint.setShader(shader) ;
     }
 

@@ -40,7 +40,7 @@ public class Practice02RadialGradientView extends View {
         Shader radialGradient = new RadialGradient(300,300,200,
                 Color.parseColor("#E91E63"),
                 Color.parseColor("#2196F3"),
-                Shader.TileMode.MIRROR);
+                Shader.TileMode.REPEAT);
         paint.setShader(radialGradient) ;
 
     }
